@@ -12,6 +12,7 @@ public class Main {
         if (year % 4 == 0 || year % 100 == 0) {
             if (year % 100 == 0 && year % 400 != 0) {
                 System.out.print(" Girdiğiniz yıl, artık yıl değildir. ");
+                
             }else if (year % 100 == 0 && year % 400 == 0) {
                 System.out.print(" Girdiğiniz yıl, artık yıldır. ");
             }else {
